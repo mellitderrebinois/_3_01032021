@@ -36,6 +36,16 @@
     margin-bottom: 0.3rem;
     font-weight: bold;
   }
+
+  h5{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .prix{
+      font-weight: bold;
+      margin-right: 0.5rem;
+  }
   .menu {
     background-color: #f6f6f6;
     padding-top: 0.5rem;
@@ -48,6 +58,7 @@
   }
 
   .carte {
+      
     background-color: white;
     border-radius: 1rem;
     padding: 0.8rem;
