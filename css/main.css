@@ -230,6 +230,7 @@ header .fa-arrow-left {
 }
 
 .fonctionnement .li {
+  margin-left: 0.5rem;
   margin-bottom: 1rem;
   list-style-type: none;
   padding: 1.5rem;
