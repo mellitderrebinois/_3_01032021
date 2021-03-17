@@ -78,61 +78,6 @@ header .fa-arrow-left {
   font-size: 1.2rem;
 }
 
-.section2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: #f6f6f6;
-}
-
-.restaurants_carte {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  background-color: white;
-  margin-bottom: 1.5rem;
-  border-radius: 20px;
-  -webkit-box-shadow: 0px 2px 4px 0px #80808059;
-          box-shadow: 0px 2px 4px 0px #80808059;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-}
-
-.img_restaurants {
-  width: 100%;
-  height: 10rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 20px 20px 0px 0px;
-}
-
-.figure_restaurants {
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.figcaption_section2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .pages .img_pages {
   -o-object-fit: cover;
      object-fit: cover;
@@ -271,29 +216,20 @@ header .fa-arrow-left {
   margin-left: 4rem;
 }
 
-.section1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .fonctionnement {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
-.li {
+.fonctionnement h2 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.fonctionnement .li {
   margin-bottom: 1rem;
   list-style-type: none;
   padding: 1.5rem;
@@ -302,5 +238,56 @@ header .fa-arrow-left {
   text-align: center;
   -webkit-box-shadow: 0px 2px 4px 0px #80808059;
           box-shadow: 0px 2px 4px 0px #80808059;
+}
+
+.restaurant {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: #f6f6f6;
+}
+
+.restaurant h2 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.restaurant .img_restaurants {
+  width: 100%;
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.restaurant figure {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 2px 4px 0px #80808059;
+          box-shadow: 0px 2px 4px 0px #80808059;
+}
+
+.restaurant figcaption {
+  padding-left: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.restaurant h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.restaurant h4 {
+  font-size: 0.9rem;
+}
+
+.footer_index {
+  position: relative;
+  top: 0;
 }
 /*# sourceMappingURL=main.css.map */
