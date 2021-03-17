@@ -58,6 +58,10 @@ footer h3 {
   font-size: 1rem;
 }
 
+footer a {
+  color: white;
+}
+
 footer .fas {
   width: 1.2rem;
   text-align: center;
@@ -332,5 +336,15 @@ header .fa-arrow-left {
 .footer_index {
   position: relative;
   top: 0;
+}
+
+@media (min-width: 959px) {
+  .restaurant {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 /*# sourceMappingURL=main.css.map */
