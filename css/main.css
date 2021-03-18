@@ -29,6 +29,7 @@ p {
 a {
   text-decoration: none;
   color: black;
+  display: block;
 }
 
 footer {
@@ -102,6 +103,19 @@ header .fa-arrow-left {
   font-size: 1.4rem;
 }
 
+.pages .fa-heart:hover {
+  color: red;
+  font-weight: bold;
+  -webkit-transition: all 1s linear 0s;
+  transition: all 1s linear 0s;
+}
+
+.pages a:hover {
+  -webkit-transition: margin-left 2s ease-in-out;
+  transition: margin-left 2s ease-in-out;
+  background-color: green;
+}
+
 .pages .nom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,6 +176,35 @@ header .fa-arrow-left {
   margin-bottom: 0.8rem;
   -webkit-box-shadow: 0px 2px 4px 0px #80808059;
           box-shadow: 0px 2px 4px 0px #80808059;
+}
+
+.pages .carte {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  /* Firefox */
+  -webkit-animation: fadein 2s;
+  /* Safari et Chrome */
+  -o-animation: fadein 2s;
+  /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  /* sur Safari et Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .pages .commander {
@@ -246,7 +289,14 @@ header .fa-arrow-left {
   text-align: center;
 }
 
-.fonctionnement .li {
+.fonctionnement a:hover {
+  background-color: #f5edff;
+  display: block;
+  -webkit-box-shadow: 4px 4px 4px 0px #80808059;
+          box-shadow: 4px 4px 4px 0px #80808059;
+}
+
+.fonctionnement a {
   margin-left: 0.5rem;
   margin-bottom: 1rem;
   padding: 1.5rem;
@@ -336,15 +386,5 @@ header .fa-arrow-left {
 .footer_index {
   position: relative;
   top: 0;
-}
-
-@media (min-width: 959px) {
-  .restaurant {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
 }
 /*# sourceMappingURL=main.css.map */
