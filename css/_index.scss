@@ -62,18 +62,15 @@
   }
 
   a:hover {
-    background-color: rgb(245,237,255);
+    background-color: rgb(245, 237, 255);
     display: block;
     box-shadow: 4px 4px 4px 0px #80808059;
   }
 
- 
-
-
   a {
     margin-left: 0.5rem;
     margin-bottom: 1rem;
-    
+
     padding: 1.5rem;
     border-radius: 1rem;
     background-color: #f6f6f6;
@@ -122,6 +119,22 @@
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
   }
+
+  .new{
+    position: absolute;
+    background-color: #99E2D0;
+    color: rgb(48,163,135);
+    font-weight: bold;
+    right: 0;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 2px;
+  }
   figure {
     margin: 0;
     margin-bottom: 1.5rem;
@@ -140,6 +153,13 @@
     padding-right: 2.5rem;
     padding-top: 10px;
   }
+
+  .fa-heart:hover {
+    color: #9e5adc;
+    font-weight: bold;
+    transition: all 1s linear 0s;
+  }
+
   h3 {
     font-weight: bold;
     font-size: 1rem;
