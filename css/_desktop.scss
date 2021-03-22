@@ -1,7 +1,8 @@
 @media (min-width: 959px) {
-  .fa-map-marker-alt {
-    right: 0;
-    margin-right: 25%;
+
+  
+    .fa-map-marker-alt {
+      
   }
 
   .debut .explorer {
@@ -61,6 +62,10 @@
       text-align: center;
       width: 20%;
     }
+    .fa-heart{
+        position: absolute;
+        left: 85%;
+    }
   }
 
 
@@ -80,7 +85,7 @@
 
   .menu {
     h2 {
-        position: relative;
+        
       width:2000px;
     }
     .entrees,.plats,.desserts {
