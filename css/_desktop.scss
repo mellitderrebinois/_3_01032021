@@ -1,8 +1,7 @@
 @media (min-width: 959px) {
-
-  
-    .fa-map-marker-alt {
-      
+  .debut .fa-map-marker-alt {
+    text-align: center;
+    margin-right: 1rem;
   }
 
   .debut .explorer {
@@ -46,6 +45,10 @@
   }
 
   .restaurant {
+    figure{
+      margin-bottom: 0;
+    }
+
     h2 {
       width: 100%;
     }
@@ -53,6 +56,7 @@
       justify-content: space-between;
       width: 24%;
       position: relative;
+      height: auto;
     }
     .new {
       left: 0;
@@ -62,46 +66,42 @@
       text-align: center;
       width: 20%;
     }
-    .fa-heart{
-        position: absolute;
-        left: 85%;
+    .fa-heart {
+      position: absolute;
+      left: 85%;
     }
   }
 
-
-
-  .pages .commander{
+  .pages .commander {
     margin: auto;
     margin-top: 4rem;
     max-width: 150px;
   }
 
-
   .menu {
     display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .menu {
     h2 {
-        
-      width:2000px;
+      width: 2000px;
     }
-    .entrees,.plats,.desserts {
-        width: 30%;
-      
+    .entrees,
+    .plats,
+    .desserts {
+      width: 30%;
     }
-   .commander{
-       width: 2000px;
-   }
-   .fa-heart {
-       position: absolute;       ;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    left: 0;
-    margin-left: 96%;
+    .commander {
+      width: 2000px;
+    }
+    .fa-heart {
+      position: absolute;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      left: 0;
+      margin-left: 96%;
+    }
   }
-  }
-
 }

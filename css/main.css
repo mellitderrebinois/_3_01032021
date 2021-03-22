@@ -166,10 +166,8 @@ footer .fas {
 }
 
 .debut .fa-map-marker-alt {
-  position: absolute;
-  left: 0;
-  font-size: 1rem;
-  padding-left: 7rem;
+  margin-right: 1rem;
+  text-align: center;
 }
 
 .debut .sous {
@@ -510,6 +508,10 @@ footer .fas {
 }
 
 @media (min-width: 959px) {
+  .debut .fa-map-marker-alt {
+    text-align: center;
+    margin-right: 1rem;
+  }
   .debut .explorer {
     margin: auto;
     margin-top: 4rem;
@@ -551,6 +553,9 @@ footer .fas {
             justify-content: space-between;
     padding-bottom: 3rem;
   }
+  .restaurant figure {
+    margin-bottom: 0;
+  }
   .restaurant h2 {
     width: 100%;
   }
@@ -560,6 +565,7 @@ footer .fas {
             justify-content: space-between;
     width: 24%;
     position: relative;
+    height: auto;
   }
   .restaurant .new {
     left: 0;
@@ -590,7 +596,9 @@ footer .fas {
   .menu h2 {
     width: 2000px;
   }
-  .menu .entrees, .menu .plats, .menu .desserts {
+  .menu .entrees,
+  .menu .plats,
+  .menu .desserts {
     width: 30%;
   }
   .menu .commander {

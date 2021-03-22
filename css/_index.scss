@@ -4,12 +4,11 @@
     background-color: #eaeaea;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    
   }
   .fa-map-marker-alt {
-    position: absolute;
-    left: 0;
-    font-size: 1rem;
-    padding-left: 7rem;
+    margin-right: 1rem;
+    text-align: center;
   }
   .sous {
     text-align: center;
@@ -109,6 +108,7 @@
 }
 
 .restaurant {
+  
   h2 {
     margin-bottom: 1.5rem;
     font-weight: bold;
