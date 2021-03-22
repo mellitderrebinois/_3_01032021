@@ -37,8 +37,9 @@
     background-color: #9e5adc;
     color: white;
     background: linear-gradient(to bottom right, #eb72da, #9e5adc);
-    margin-right: 4rem;
-    margin-left: 4rem;
+    margin: auto;
+    margin-top:4rem ;
+    max-width: 200px;
   }
 }
 
@@ -70,7 +71,7 @@
   a {
     margin-left: 0.5rem;
     margin-bottom: 1rem;
-
+    max-width: 400px;
     padding: 1.5rem;
     border-radius: 1rem;
     background-color: #f6f6f6;

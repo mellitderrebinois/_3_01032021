@@ -22,33 +22,32 @@
     transition: all 1s linear 0s;
   }
 
-
-
-
-  a {
-    transform: translate(0);
+  a :hover .survol {
    
-    transition-duration: 1s;
-    &:hover + .survol {
-      transform: translate(20px);
-    }
+    margin-right: 0px;
+    min-width: 4rem;
+    transition: margin-right 0.5s;
+    
   }
-
+ 
+  
   .survol {
-    padding: 1rem;
-    background-color: #99e2d0;
-    margin: 0;
-  }
+    background-color: #99E2D0;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -64px;
 
+    
+    
+  }
 
   .fa-check-circle {
     font-size: 1.2rem;
+    color: white;
+    
   }
-
-
-
-
-  
 
   .nom {
     display: flex;
@@ -92,6 +91,7 @@
   }
 
   .carte {
+    
     background-color: white;
     border-radius: 1rem;
     padding: 0.8rem;

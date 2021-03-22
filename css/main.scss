@@ -1,15 +1,20 @@
 /* sert à joindre tous les fichiers scss au même endroit */
 
 @import "base";
-
-@import "footer";
-
+@import "loader";
 @import "header";
-
-
-@import "pages";
-
+@import "footer";
 @import "index";
 
+@import "pages";
+@import "desktop";
 
-@import "loading";
+
+
+
+
+
+
+
+
+
