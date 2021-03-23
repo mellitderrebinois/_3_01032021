@@ -61,11 +61,21 @@
     text-align: center;
   }
 
-  a:hover {
+  a:hover{
     background-color: rgb(245, 237, 255);
     display: block;
-    box-shadow: 4px 4px 4px 0px #80808059;
+    box-shadow: 4px 4px 4px 0px #80808059;   
+    
+    & .fa-mobile-alt,
+    .fa-list-ul,
+    .fa-store{
+      color: rgb(147, 86, 220);
+    }
+
+
   }
+
+  
 
   a {
     margin-left: 0.5rem;

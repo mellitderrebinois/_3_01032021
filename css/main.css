@@ -231,6 +231,12 @@ footer .fas {
           box-shadow: 4px 4px 4px 0px #80808059;
 }
 
+.fonctionnement a:hover .fa-mobile-alt,
+.fonctionnement a:hover .fa-list-ul,
+.fonctionnement a:hover .fa-store {
+  color: #9356dc;
+}
+
 .fonctionnement a {
   margin-left: 0.5rem;
   margin-bottom: 1rem;
@@ -379,6 +385,7 @@ footer .fas {
   min-width: 4rem;
   -webkit-transition: margin-right 0.5s;
   transition: margin-right 0.5s;
+  display: block;
 }
 
 .pages .survol {
@@ -394,6 +401,7 @@ footer .fas {
       -ms-flex-pack: center;
           justify-content: center;
   margin-right: -64px;
+  display: none;
 }
 
 .pages .fa-check-circle {

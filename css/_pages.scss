@@ -27,7 +27,7 @@
     margin-right: 0px;
     min-width: 4rem;
     transition: margin-right 0.5s;
-    
+    display: block;
   }
  
   
@@ -38,6 +38,7 @@
     align-items: center;
     justify-content: center;
     margin-right: -64px;
+    display: none;
 
     
     
