@@ -24,28 +24,90 @@
   }
 
  
-
-  a :hover .survol {
-    width: 33%;
+  .carte {
     
-  }
-
-  .survol {
-    background-color: #99e2d0;
-
+    position: relative;
+    margin:  100px;
+    display: flex;
+    margin: auto;
+   
+    background-color: white;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    border-radius: 1rem;
     overflow: hidden;
-    width: 0%;
+    box-shadow: 0px 2px 4px 0px #80808059;
+}
 
+.texte {
+  color: black;
+ padding: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 5;
+}
 
+.prix {
+  font-size: 0.8rem;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-right: 1rem;
+   padding-bottom: 0.8rem;
+    font-weight: bold;
+    align-items: flex-end;
+    
+                                            /* j'ai retiré le flex-grow 1*/
+    
+}
+
+.survol {
+    background:#99E2D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    overflow: hidden;
+    transition: width ease-in-out 1s;
     
   }
+  
+  
 
-  .fa-check-circle {
-    font-size: 1.2rem;
+  .fas {
+    
     color: white;
+    transition: transform ease-in-out 1s, color 1s;
+  }
+  
+  .carte:hover .survol {
+    width: 20%;
+  }
+
+  .carte:hover .survol > .fas{
+    transform: rotate(360deg);
     
   }
 
+  
+
+  @keyframes cocheVerte { from { width: 0; } 50% { width: 30%; } to { width: 0; } }
+
+
+ 
+  .menu {
+    background-color: #f6f6f6;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 4rem;
+    border-radius: 2rem 2rem 0 0;
+    position: relative;
+    top: 14rem;
+  }
+
+ 
   .nom {
     display: flex;
     align-items: center;
@@ -67,34 +129,9 @@
     font-weight: bold;
   }
 
-  h5 {
-    display: flex;
-    justify-content: space-between;
-  }
+  
 
-  .prix {
-    font-weight: bold;
-    margin-right: 0.5rem;
-  }
-  .menu {
-    background-color: #f6f6f6;
-    padding-top: 0.5rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 4rem;
-    border-radius: 2rem 2rem 0 0;
-    position: relative;
-    top: 14rem;
-  }
-
-  .carte {
-    background-color: white;
-    border-radius: 1rem;
-    padding: 0.8rem;
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
-    box-shadow: 0px 2px 4px 0px #80808059;
-  }
+  
 .carte:hover{
   box-shadow: 4px 4px 4px 0px #80808059;
 }
