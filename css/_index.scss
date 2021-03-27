@@ -40,6 +40,12 @@
     margin-top:4rem ;
     max-width: 200px;
   }
+  .explorer:hover{
+    
+    box-shadow: 4px 4px 4px 0px #80808059;
+    background: linear-gradient(to bottom right, #eb72da, #9e5adc);
+    opacity: 0.8;
+  }
 }
 
 .fonctionnement {
