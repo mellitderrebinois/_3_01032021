@@ -405,7 +405,7 @@ footer .fas {
           box-shadow: 0px 2px 4px 0px #80808059;
 }
 
-.pages h5 {
+.pages h5, .pages h4 {
   text-overflow: ellipsis;
   overflow: hidden;
 }
