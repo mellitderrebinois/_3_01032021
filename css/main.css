@@ -368,6 +368,7 @@ footer .fas {
      object-fit: cover;
   position: absolute;
   height: 17rem;
+  width: 100%;
 }
 
 .pages h2 {
@@ -462,6 +463,7 @@ footer .fas {
           align-items: center;
   width: 0;
   overflow: hidden;
+  /* manque flex-grow 1*/
   -webkit-transition: width ease-in-out 1s;
   transition: width ease-in-out 1s;
 }

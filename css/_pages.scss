@@ -3,6 +3,8 @@
     object-fit: cover;
     position: absolute;
     height: 17rem;
+    width:100%;
+        
   }
 
   h2 {
@@ -76,6 +78,7 @@
     align-items: center;
     width: 0;
     overflow: hidden;
+                                                         /* manque flex-grow 1*/
     transition: width ease-in-out 1s;
   }
 
