@@ -254,11 +254,12 @@ footer .fas {
   background-color: #f6f6f6;
   -webkit-box-shadow: 0px 2px 4px 0px #80808059;
           box-shadow: 0px 2px 4px 0px #80808059;
+  position: relative;
 }
 
 .fonctionnement .chiffre {
   position: absolute;
-  margin-left: 22px;
+  margin-left: -10px;
   left: 0;
   background-color: #9356dc;
   border-radius: 100%;
@@ -274,9 +275,10 @@ footer .fas {
 .fonctionnement .fa-store {
   position: absolute;
   left: 0;
-  padding-left: 4.4rem;
+  padding-left: 8%;
   font-size: 1rem;
   color: #7e7e7e;
+  padding-top: 1px;
 }
 
 .restaurant {

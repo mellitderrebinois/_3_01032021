@@ -91,10 +91,11 @@
     border-radius: 1rem;
     background-color: #f6f6f6;
     box-shadow: 0px 2px 4px 0px #80808059;
+    position: relative;
   }
   .chiffre {
     position: absolute;
-    margin-left: 22px;
+    margin-left: -10px;
     left: 0;
     background-color: rgb(147, 86, 220);
     border-radius: 100%;
@@ -109,9 +110,11 @@
   .fa-store {
     position: absolute;
     left: 0;
-    padding-left: 4.4rem;
+    padding-left: 8%;
     font-size: 1rem;
     color: rgb(126, 126, 126);
+    padding-top: 1px;
+    
   }
 }
 
