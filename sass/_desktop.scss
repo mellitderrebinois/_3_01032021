@@ -1,26 +1,27 @@
+
+
 @media (min-width: 959px) {
+  body {
+    max-width: 1500px;
+    margin: auto;
+  }
 
-body{
-  max-width: 1500px;
-  margin: auto;
-}
+  img {
+    max-width: 1500px;
+    margin: auto;
+  }
 
-img{
-  max-width: 1500px;
-  margin: auto;
-}
-
-header{
-  position: relative;
-}
-.fa-arrow-left {
-  font-size: 1.5rem;  
-  position: absolute;
-  left: 0;
-  padding-top: 6px;
-  padding-left: 1.2rem;
-  font-size: 1.2rem;
-}
+  header {
+    position: relative;
+  }
+  .fa-arrow-left {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    padding-top: 6px;
+    padding-left: 1.2rem;
+    font-size: 1.2rem;
+  }
   .debut .fa-map-marker-alt {
     text-align: center;
     margin-right: 1rem;
@@ -67,7 +68,7 @@ header{
   }
 
   .restaurant {
-    figure{
+    figure {
       margin-bottom: 0;
     }
 
